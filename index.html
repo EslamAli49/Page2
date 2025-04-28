@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار السياحة في مصر - إسلام علي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>اختبار: إنت عارف كام عن السياحة في مصر؟</h1>
+        <form id="myForm">
+            <!-- سؤال أول -->
+            <div class="question">
+                <p>١- إيه أطول نهر في مصر؟</p>
+                <label><input type="radio" name="s1" value="1"> النيل</label><br>
+                <label><input type="radio" name="s1" value="0"> النوبة</label><br>
+                <label><input type="radio" name="s1" value="0"> السويس</label>
+            </div>
+
+            <!-- سؤال تاني -->
+            <div class="question">
+                <p>٢- الأهرامات موجودة فين؟</p>
+                <label><input type="radio" name="s2" value="1"> الجيزة</label><br>
+                <label><input type="radio" name="s2" value="0"> الأقصر</label><br>
+                <label><input type="radio" name="s2" value="0"> سيناء</label>
+            </div>
+
+            <!-- سؤال تالت -->
+            <div class="question">
+                <p>٣- إيه اسم معبد مشهور في الأقصر؟</p>
+                <label><input type="radio" name="s3" value="1"> الكرنك</label><br>
+                <label><input type="radio" name="s3" value="0"> أبو سمبل</label><br>
+                <label><input type="radio" name="s3" value="0"> دير البحري</label>
+            </div>
+
+            <!-- سؤال رابع -->
+            <div class="question">
+                <p>٤- إيه المدينة المشهورة بالغوص؟</p>
+                <label><input type="radio" name="s4" value="1"> شرم الشيخ</label><br>
+                <label><input type="radio" name="s4" value="0"> الإسكندرية</label><br>
+                <label><input type="radio" name="s4" value="0"> أسوان</label>
+            </div>
+
+            <!-- سؤال خامس -->
+            <div class="question">
+                <p>٥- إيه اسم بحيرة مشهورة في الفيوم؟</p>
+                <label><input type="radio" name="s5" value="1"> قارون</label><br>
+                <label><input type="radio" name="s5" value="0"> ناصر</label><br>
+                <label><input type="radio" name="s5" value="0"> مريوط</label>
+            </div>
+
+            <!-- سؤال سادس -->
+            <div class="question">
+                <p>٦- وادي الملوك فين؟</p>
+                <label><input type="radio" name="s6" value="1"> الأقصر</label><br>
+                <label><input type="radio" name="s6" value="0"> الجيزة</label><br>
+                <label><input type="radio" name="s6" value="0"> سوهاج</label>
+            </div>
+
+            <!-- سؤال سابع -->
+            <div class="question">
+                <p>٧- إيه المعبد اللي بناه رمسيس التاني؟</p>
+                <label><input type="radio" name="s7" value="1"> أبو سمبل</label><br>
+                <label><input type="radio" name="s7" value="0"> الكرنك</label><br>
+                <label><input type="radio" name="s7" value="0"> هابو</label>
+            </div>
+
+            <!-- سؤال تامن -->
+            <div class="question">
+                <p>٨- إيه المدينة المشهورة بالمسلات؟</p>
+                <label><input type="radio" name="s8" value="1"> الأقصر</label><br>
+                <label><input type="radio" name="s8" value="0"> القاهرة</label><br>
+                <label><input type="radio" name="s8" value="0"> أسوان</label>
+            </div>
+
+            <!-- سؤال تاسع -->
+            <div class="question">
+                <p>٩- إيه اسم جزيرة في أسوان؟</p>
+                <label><input type="radio" name="s9" value="1"> فيلة</label><br>
+                <label><input type="radio" name="s9" value="0"> المعادي</label><br>
+                <label><input type="radio" name="s9" value="0"> الزمالك</label>
+            </div>
+
+            <!-- سؤال عاشر -->
+            <div class="question">
+                <p>١٠- إيه المدينة المشهورة بالشواطئ البيضاء؟</p>
+                <label><input type="radio" name="s10" value="1"> مرسى مطروح</label><br>
+                <label><input type="radio" name="s10" value="0"> الغردقة</label><br>
+                <label><input type="radio" name="s10" value="0"> السويس</label>
+            </div>
+
+            <!-- سؤال حادي عشر -->
+            <div class="question">
+                <p>١١- إيه اسم متحف مشهور في القاهرة؟</p>
+                <label><input type="radio" name="s11" value="1"> المتحف المصري</label><br>
+                <label><input type="radio" name="s11" value="0"> المتحف القبطي</label><br>
+                <label><input type="radio" name="s11" value="0"> متحف الفن الإسلامي</label>
+            </div>
+
+            <button type="button" onclick="hasabNatiga()">اعرف مستواك دلوقتي!</button>
+        </form>
+
+        <div id="natiga" class="natiga"></div>
+    </div>
+
+    <!-- معمول يدوي بواسطة إسلام علي -->
+    <script src="script.js"></script>
+</body>
+</html>
